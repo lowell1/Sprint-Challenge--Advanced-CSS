@@ -1,1 +1,22 @@
 // Mixins Here
+.flex-space-between() {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.custom-btn(@bg-color, @fg-color) {
+    background-color: @bg-color;
+    color: @fg-color;
+    font-size: 1.8rem;
+    text-align: center;
+    display: inline;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.mobile-format() {
+    @media(@phone) {
+        width: 100% !important;
+    }
+}
