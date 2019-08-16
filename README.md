@@ -133,3 +133,16 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+-------------------------------------
+self study question answers:
+
+1. Responsive websites use media queries to detect the size of a screen and format the page accordingly. Adaptive websites use detect the screen size and chooses a design layout.
+
+2. Mobile first means that a web designer will format a website for mobile devices first and then make adjustments for desktop devices. In desktop first design, the website will be formatted for a desktop first, and then will be adjusted using media queries so that it's easier to read and use on smaller devices.
+
+3. Setting the font size to 62.5% in the html selector makes it so 1 rem is equal to 10px. The purpose of this is to make the math easier when setting the size of fonts or elements using rems.
+
+4. Preprocessing allows developers to organize their code better by writing in a different syntax and then compiling it into css.
+
+5. My favorite part of preprocessing is the ability to nest selectors because it makes it a lot easier to find things. The part that gives me the most trouble is mixins because I have a hard time knowing when to create one and I usually end up rewriting the same code anyways.
